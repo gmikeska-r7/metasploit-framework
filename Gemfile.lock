@@ -10,8 +10,8 @@ GIT
 
 GIT
   remote: git://github.com/rapid7/metasploit-credential.git
-  revision: ce74ca0639c3a937f91f1138a7e998d9244ca3e0
-  branch: staging/rails-upgrade
+  revision: f2954e34734dadb298c660a5a8ae425e6039d8a4
+  branch: bug/MS-906/remove-manual-removeal-of-order-statement
   specs:
     metasploit-credential (1.1.0)
       metasploit-concern
@@ -314,3 +314,6 @@ DEPENDENCIES
   timecop
   yard
   yard-metasploit-erd!
+
+BUNDLED WITH
+   1.11.2
